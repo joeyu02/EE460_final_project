@@ -1,0 +1,85 @@
+(firstProject) (base) MacBookPro:~ georgeyang$ /opt/anaconda3/envs/firstProject/bin/python "/Users/georgeyang/Documents/USC/Spring 2025/EE 460/FinalProject/MLP/MLP.py"
+Loaded balanced data → X:(2055, 15),  y:(2055,),  classes:[0 1 2 3 4]
+Loaded original data → X:(299, 15),  y:(299,),  class counts:[160  56  35  35  13]
+Split sizes → {'train': 1644, 'val': 205, 'test': 206}
+
+=== Optuna search (balanced data) ===
+[I 2025-05-07 05:27:56,941] A new study created in memory with name: heart_mlp_balanced
+[I 2025-05-07 05:28:50,512] Trial 0 finished with value: 0.7438429434177131 and parameters: {'h1': 448, 'h2': 256, 'h3': 96, 'drop': 0.2, 'lr': 0.0005360957512254067, 'batch': 256, 'wd': 2.43009562095972e-05, 'epochs': 150}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:29:31,883] Trial 1 finished with value: 0.7160848153214775 and parameters: {'h1': 512, 'h2': 160, 'h3': 96, 'drop': 0.25, 'lr': 0.00039831982412064505, 'batch': 256, 'wd': 0.00024675799396522145, 'epochs': 110}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:30:33,741] Trial 2 finished with value: 0.7271678563628975 and parameters: {'h1': 256, 'h2': 224, 'h3': 64, 'drop': 0.25, 'lr': 0.0005029826436149296, 'batch': 64, 'wd': 0.00011149794809507542, 'epochs': 120}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:31:10,952] Trial 3 finished with value: 0.7012919623110487 and parameters: {'h1': 256, 'h2': 192, 'h3': 96, 'drop': 0.25, 'lr': 0.0002655365182730095, 'batch': 64, 'wd': 0.0002029763858728645, 'epochs': 80}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:31:29,111] Trial 4 finished with value: 0.7320101084119801 and parameters: {'h1': 320, 'h2': 224, 'h3': 80, 'drop': 0.1, 'lr': 0.0008463869379433811, 'batch': 256, 'wd': 0.00037914632294584944, 'epochs': 50}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:31:29,479] Trial 5 pruned.                                                                                                                                   
+[I 2025-05-07 05:32:32,199] Trial 6 pruned.                                                                                                                                   
+[I 2025-05-07 05:32:32,505] Trial 7 pruned.                                                                                                                                   
+[I 2025-05-07 05:32:32,810] Trial 8 pruned.                                                                                                                                   
+[I 2025-05-07 05:32:33,383] Trial 9 pruned.                                                                                                                                   
+[I 2025-05-07 05:32:33,643] Trial 10 pruned.                                                                                                                                  
+[I 2025-05-07 05:32:34,062] Trial 11 pruned.                                                                                                                                  
+[I 2025-05-07 05:32:34,493] Trial 12 pruned.                                                                                                                                  
+[I 2025-05-07 05:32:34,865] Trial 13 pruned.                                                                                                                                  
+[I 2025-05-07 05:32:35,222] Trial 14 pruned.                                                                                                                                  
+[I 2025-05-07 05:32:35,418] Trial 15 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:28,243] Trial 16 finished with value: 0.7287085487970534 and parameters: {'h1': 448, 'h2': 256, 'h3': 64, 'drop': 0.2, 'lr': 0.0006398868294596568, 'batch': 256, 'wd': 3.1894332502213607e-06, 'epochs': 120}. Best is trial 0 with value: 0.7438429434177131.
+[I 2025-05-07 05:33:28,482] Trial 17 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:30,075] Trial 18 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:30,315] Trial 19 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:30,841] Trial 20 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:31,668] Trial 21 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:33,120] Trial 22 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:33,393] Trial 23 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:34,368] Trial 24 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:35,752] Trial 25 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:36,592] Trial 26 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:39,334] Trial 27 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:39,635] Trial 28 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:39,876] Trial 29 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:40,170] Trial 30 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:40,637] Trial 31 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:41,114] Trial 32 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:41,760] Trial 33 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:42,265] Trial 34 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:45,032] Trial 35 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:45,314] Trial 36 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:49,003] Trial 37 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:49,495] Trial 38 pruned.                                                                                                                                  
+[I 2025-05-07 05:33:49,685] Trial 39 pruned.                                                                                                                                  
+Best trial: 0. Best value: 0.743843: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [05:52<00:00,  8.82s/it]
+Best F1 : 0.7438429434177131
+Best params: {'h1': 448, 'h2': 256, 'h3': 96, 'drop': 0.2, 'lr': 0.0005360957512254067, 'batch': 256, 'wd': 2.43009562095972e-05, 'epochs': 150}
+
+=== Training final model ===
+[Epoch  10] train_loss=1.2045  val_loss=1.1929
+[Epoch  20] train_loss=1.0796  val_loss=1.0964
+[Epoch  30] train_loss=1.0188  val_loss=1.0661
+[Epoch  40] train_loss=0.9572  val_loss=1.0536
+[Epoch  50] train_loss=0.9081  val_loss=1.0443
+Early stopping at epoch 60
+2025-05-07 05:35:31.990 python[52338:12249383] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+k=1  accuracy=0.712
+k=2  accuracy=0.542
+k=3  accuracy=0.571
+k=4  accuracy=0.579
+k=5  accuracy=0.568
+
+=== Accuracy vs #Training Samples (Original vs Balanced) ===
+
+=== Test classification report ===
+              precision    recall  f1-score   support
+
+           0     0.7500    0.7317    0.7407        41
+           1     0.5135    0.4634    0.4872        41
+           2     0.7045    0.7561    0.7294        41
+           3     0.7143    0.7143    0.7143        42
+           4     0.9070    0.9512    0.9286        41
+
+    accuracy                         0.7233       206
+   macro avg     0.7179    0.7233    0.7200       206
+weighted avg     0.7178    0.7233    0.7200       206
+
+
+=== Key metrics (Test) ===
+Accuracy  : 0.723
+Weighted F1: 0.720
+Model saved to heart_disease_mlp_balanced.pkl
